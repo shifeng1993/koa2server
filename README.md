@@ -19,6 +19,7 @@
 三选一
 `supervisor app` / `node app` / `./shell.sh`
 
+## 项目结构
 `app.js`为主文件，平时做模拟数据用`supervisor`启动即可（没有的话用npm安装），也可以用`node`启动。
 
 `routes`目录下为api路由。对应添加即可。
