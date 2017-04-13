@@ -6,6 +6,7 @@
 - koa2
 - pm2
 - es6/7
+- mockjs
 
 ## 使用方法
 `app.js`为主文件，平时做模拟数据用`supervisor`启动即可（没有的话用npm安装），也可以用`node`启动。
