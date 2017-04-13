@@ -28,7 +28,7 @@
 
 `models`目录下为对数据的读写。应以函数式为主要开发思想。
 
-shell守护进程脚本用 `./shell.sh`启动。如果遇到权限错误，请先输入'chmod 777 shell.sh'改写权限后，再行启动。
+shell守护进程脚本用 `./shell.sh`启动。如果遇到权限错误，请先输入`chmod 777 shell.sh`改写权限后，再行启动。
 
 注意：shell脚本依赖pm2 请先进行全局安装后再启动 `npm install -g pm2`
 
