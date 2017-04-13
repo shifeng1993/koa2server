@@ -7,6 +7,7 @@
 - pm2
 - es6/7
 - mockjs
+- koa2-pixie-proxy
 
 ## 使用方法
 
