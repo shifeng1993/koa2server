@@ -1,11 +1,6 @@
 // mock假数据模块
 const Mock = require('mockjs');
-/*
-// 代理转发模块
-const pixie = require('koa2-pixie-proxy');
-// 设置后端服务器url
- var dbUrl = 'http://test.com'; //这里写你的后端api地址
-*/
+
 class indexModel {
     // 用户登录
     static async goods(params, res) {
