@@ -1,6 +1,6 @@
 {
   "name": "koa2apiserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a koa2 API server",
   "main": "app.js",
   "scripts": {
