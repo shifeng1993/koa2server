@@ -25,6 +25,9 @@ router.all('/api/*', async(ctx, next) => {
 // 获取商品
 router.get('/api/goods', index.goods)
 
+// test
+router.get('/post/create', index.create)
+
 // 代理转发示例 
 
 //router.get('/api/goods',proxy('/api/goods'))

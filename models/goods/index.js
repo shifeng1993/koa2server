@@ -1,7 +1,7 @@
 // mock假数据模块
 const Mock = require('mockjs');
 
-class indexModel {
+class goodsModel {
     // 用户登录
     static async goods(params, res) {
         const data = Mock.mock([
@@ -109,4 +109,4 @@ class indexModel {
     }
 
 }
-module.exports = indexModel;
+module.exports = goodsModel;
