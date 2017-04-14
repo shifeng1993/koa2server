@@ -1,5 +1,5 @@
 # Koa2APIServer
-一个使用koa2构建的API服务端。
+一个使用koa2构建的 RESTful API服务端。
 #### 技术栈：
 - shell
 - nodejs
