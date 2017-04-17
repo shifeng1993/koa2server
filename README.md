@@ -1,5 +1,5 @@
 # Koa2APIServer
-一个使用koa2构建的 RESTful API服务端。
+一个使用koa2构建的API服务端。
 #### 技术栈：
 - shell
 - nodejs
@@ -51,6 +51,6 @@ shell守护进程脚本用 `./shell.sh`启动。如果遇到权限错误，请�
 1.添加对数据库的支持，orm模块为`waterline`。
 
 ## 待添加特性
-暂无
+1.对WebSocket的支持。
 
 
