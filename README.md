@@ -1,5 +1,7 @@
-# Koa2APIServer
-一个使用koa2构建的API服务端。
+# Koa2Server
+一个使用koa2构建的服务。
+
+可以mock数据，反向代理，支持http和tcp。
 #### 技术栈：
 - shell
 - nodejs
