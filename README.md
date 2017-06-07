@@ -3,13 +3,12 @@
 
 可以mock数据，反向代理，支持http和tcp。
 #### 技术栈：
-- shell
 - nodejs
 - koa2
-- pm2
 - es6/7
 - mockjs
 - koa2-pixie-proxy
+- REAT API
 - socket.io
 
 ## 使用方法
