@@ -8,7 +8,7 @@
 - es6/7
 - mockjs
 - koa2-pixie-proxy
-- waterline
+- socket.io
 
 ## 使用方法
 
@@ -18,8 +18,8 @@
 
 `npm install`
 
-三选一
-`supervisor app` / `node app` / `./shell.sh`
+二选一
+`supervisor app` / `node app`
 
 ## 项目结构
 `app.js`为主文件，平时做模拟数据用`supervisor`启动即可（没有的话用npm安装），也可以用`node`启动。
@@ -28,11 +28,7 @@
 
 `controllers`目录下为api数据的控制，更改以及序列化。
 
-`models`目录下为对数据的读写。应以函数式为主要开发思想。
-
-shell守护进程脚本用 `./shell.sh`启动。如果遇到权限错误，请先输入`chmod 777 shell.sh`改写权限后，再行启动。
-
-注意：shell脚本依赖pm2 请先进行全局安装后再启动 `npm install -g pm2`
+`models`目录下为对数据的读写。
 
 ## 版本特性
 #### 1.0.0
@@ -50,7 +46,13 @@ shell守护进程脚本用 `./shell.sh`启动。如果遇到权限错误，请�
 #### 1.0.2
 1.添加对数据库的支持，orm模块为`waterline`。
 
+#### 1.1.0
+1.去掉对数据库的支持，因为此server定位只适用于开发。
+
+2.添加对websocket的支持，socket.io库。
+
+3.精简代码，修复已知问题。
 ## 待添加特性
-1.对WebSocket的支持。
+暂无
 
 

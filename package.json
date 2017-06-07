@@ -1,6 +1,6 @@
 {
   "name": "koa2apiserver",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "this is a koa2 API server",
   "main": "app.js",
   "scripts": {
@@ -14,11 +14,9 @@
     "koa-json": "^2.0.2",
     "koa-onerror": "^3.1.0",
     "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
     "koa2-pixie-proxy": "^2.0.3",
     "mockjs": "^1.0.1-beta3",
-    "sails-mongo": "^0.12.2",
-    "sails-mysql": "^0.11.5",
-    "sails-redis": "^0.10.7",
-    "waterline": "^0.11.11"
+    "socket.io": "^2.0.2"
   }
 }
